@@ -1,0 +1,249 @@
+{u'eParamID_RecordType': u'Defines the frame recording method of media stored.'}
+{u'eParamID_1080PlaybackType': u'Defines the format applied when 1080p media is played back from storage.'}
+{u'eParamID_1080PlaybackType_Normal': u'Defines the format applied when 1080p media is played back from storage.'}
+{u'eParamID_1080PlaybackType_4K_QHD': u'Defines the format applied when 4K or QHD media is played back from storage.'}
+{u'eParamID_VideoInConvert': u'Defined the type of conversion, if any, applied to the selected input when it is 4K.'}
+{u'eParamID_VideoOutConvert': u'Defined the type of conversion, if any, applied to the output when playing media from storage or while recording.'}
+{u'eParamID_SDIOutput': u'Define the SDI output format.'}
+{u'eParamID_SDIOutput_No_Encoding': u'Warning that the SDI output format is unsupported'}
+{u'eParamID_SDIOutput_4K_422': u'Define the SDI output format for 4K 422 30 fps and under.'}
+{u'eParamID_SDIOutput_4K_444': u'Define the SDI output format for 4K.'}
+{u'eParamID_SDIOutput_4K_422_High_FR': u'Define the SDI output format for 4K 422 50, 59.94 and 60 fps.'}
+{u'eParamID_SDIOutput_4K_422_Very_High_FR': u'Define the SDI output format for 4K.'}
+{u'eParamID_SDIOutput_QHD_422': u'Define the SDI output format for UHD.'}
+{u'eParamID_SDIOutput_QHD_444': u'Define the SDI output format UHD.'}
+{u'eParamID_SDIOutput_QHD_422_High_FR': u'Define the SDI output format for UHD 50, 59.94 and 60 fps.'}
+{u'eParamID_SDIOutput_QHD_422_Very_High_FR': u'Define the SDI output format for UHD.'}
+{u'eParamID_SDIOutput_2K_422': u'Define the SDI output format 2K.'}
+{u'eParamID_SDIOutput_2K_422_High_FR': u'Define the SDI output format 2K.'}
+{u'eParamID_SDIOutput_2K_444': u'Define the SDI output format 2K.'}
+{u'eParamID_SDIOutput_1080p_422': u'Define the SDI output format 1080p.'}
+{u'eParamID_SDIOutput_1080p_422_High_FR': u'Define the SDI output format 1080p.'}
+{u'eParamID_SDIOutput_1080p_444': u'Define the SDI output format 1080p.'}
+{u'eParamID_SDIOutput_1080i_444': u'Define the SDI output format 1080i.'}
+{u'eParamID_SDIOutput_1080i': u'Define the SDI output format 1080i.'}
+{u'eParamID_SDIOutput_Raw_1': u'Define the SDI output format RAW.'}
+{u'eParamID_SDIOutput_Raw_1_2': u'Define the SDI output format RAW.'}
+{u'eParamID_SDIOutput_Raw_1_4': u'Define the SDI output format RAW.'}
+{u'eParamID_HDMIOutput': u'Defines whether or not the scaled video output to the monitor is additionally cropped to 1080.'}
+{u'eParamID_3G_SDILevel': u'Defines whether SDI output is Level B or Level A'}
+{u'eParamID_HDMIOut': u'Defines whether or not HDMI Output is scaled'}
+{u'eParamID_HDMI10_8Bit': u'Defines override value for HDMI/EDID - 10-bit YCbCr, 8-bit RGB, or 4K 420'}
+{u'eParamID_TimecodeBurn': u'Enables the On-Screen Display of the timecode and transport state'}
+{u'eParamID_SuperAreaOpacity': u"Defines the LCD overlay's alpha percent"}
+{u'eParamID_VideoInSelect': u'Selects a video input source from the video input connections available.  This is the video that will be recorded and/or passed through.'}
+{u'eParamID_AudioInSelect': u'Selects an audio input source, including SDI, Analog, AES, and HDMI.'}
+{u'eParamID_AudioChannels': u'Selects the number of audio channels to record.'}
+{u'eParamID_AudioChannelsFocus': u'Selects the audio channels output to the headphones and shown in the VU Meters.'}
+{u'eParamID_AnalogAudioStandard': u'Deternimes analog audio input signal levels\n+24dBu - Pro-level USA signal level of +24dBu.\n+18dBu - Pro-level Europe signal level of +18dBu.\n+15dBu - Pro-level German signal level of +15dBu.\n+12dBu - Consumer signal level of +12dBu.\nNote: Professional audio equipment has much higher levels than consumer equipment: a 0 VU reading corresponds to +4 dBu. Connecting a consumer device to a professional audio input typically does not have sufficient power to drive the input.'}
+{u'eParamID_GenLock': u'Selects source of reference video used to genlock to during playback.  The system always genlocks to the selected input during capture.'}
+{u'eParamID_LocalTimecodeIn': u'Selects the source of timecode from those available when in RS422 Local.'}
+{u'eParamID_RS422TimecodeIn': u'Selects the source of timecode from those available when in RS422 Remote.'}
+{u'eParamID_LocalTimecodeIn': u'Selects the source of timecode from those available when in RS422 Local.'}
+{u'eParamID_FW400TimecodeIn': u'Selects the source of timecode from those available when in FW400 Remote.'}
+{u'eParamID_TimecodeValue': u'Selects an hour for timecode to start.'}
+{u'eParamID_TimecodeType': u'Selects drop frame or non-drop frame timecode.'}
+{u'eParamID_ArmRecording': u'Selects how recording will begin.'}
+{u'eParamID_IntervalRecord': u'Enable or disable Interval (time lapse) recording.'}
+{u'eParamID_IntervalFrames': u'How many frames to capture each interval.'}
+{u'eParamID_IntervalTime': u'Length of a single interval.'}
+{u'eParamID_MediaState': u'Define whether the Ki Pro device is in normal Record-Play or Data Transfer mode.'}
+{u'eParamID_MediaStateDebounced': u'Debounced (readable) param to tell if the Ki Pro device is in normal Record-Play or Data Transfer mode.'}
+{u'eParamID_Rollover': u'Should records attempt to rollover to the next available media?'}
+- {u'eParamID_EncodeType_Low_FR': u'Defines the video data encoding method for low frame rates.'}
+{u'eParamID_EncodeType_High_FR': u'Defines the video data encoding method for high frame rates.'}
+{u'eParamID_EncodeType_Low_FR': u'Defines the video data encoding method for low frame rates.'}
+{u'eParamID_EncodeType_XHi_FR': 'description missing'}
+{u'eParamID_EncodeType_High_FR_SlowSSD': u'Defines the video data encoding method for high frame rates and slow SSDs.'}
+{u'eParamID_PlayMedia': u'Determines behavior during playback.'}
+{u'eParamID_LoopPlay': u'Turns looped playback on and off.'}
+{u'eParamID_CurrentPlaylist': u'The current selected playlist.'}
+{u'eParamID_DroppedFrames': u'Continue or alarm and stop on dropped frames during playback.'}
+- {u'eParamID_FormatMedia': u'Format the currently selected storage device.'}
+{u'eParamID_DeleteMode': u'Delete clips on the selected media.'}
+{u'eParamID_DeleteCurrentClip': u'Delete selected clip on the selected media.'}
+{u'eParamID_ReelName': u'Determines the reel name associated with all clips generated while using this setting.  Also the name of the media as it will appear when the storage device is mounted on a Mac OSX desktop (and media was formatted by Ki Pro).'}
+{u'eParamID_Camera': u'The assigned name of the unit'}
+{u'eParamID_ClipName': u"Determines the clip name associated with all clips generated while using this setting. The clip name is either ''Clip'' or ''SC''."}
+{u'eParamID_ClipNumber': u'Determines the clip number, from 1 to 999, that follows the CLIP NAME, and is associated with all clips generated while using this setting.'}
+{u'eParamID_ClipAppend': u'Used with parameter 17.5 ALPHA APPEND to append a text value after the CLIP NUMBER or have no text appended.'}
+{u'eParamID_AlphaAppend': u'Used with parameter 17.4 CLIP APPEND to append a text value after the CLIP NUMBER.'}
+{u'eParamID_Take': u'Determines the TAKE number, from 1 to 999, that follows the CLIP NAME and CLIP NUMBER, followed by any ALPHA APPEND (if selected), generated for all clips while using this setting.'}
+{u'eParamID_CombinedName': u'Adds the Unit Designation and Preset Reel Name as a prefix to each Clip Name and Number.'}
+{u'eParamID_UseCustomClipName': u'Determines whether to generate a default clipname or to use a custom clipname provided by the user.'}
+- {u'eParamID_CustomClipName': u'A custom clip name used to generated recorded clipnames if set up to do so with parameter 16.4.'}
+{u'eParamID_CustomTake': u'Determines the TAKE number, from 1 to 999, that follows the Custom Name. This is only used when Use Custom Clipname is YES.'}
+{u'eParamID_UseGangClipName': u"Determines whether to use the gang master's clip name or the name on the slave."}
+{u'eParamID_LossOfVideo': u'Stop or continue recording on loss of video input.'}
+{u'eParamID_RS422Remote': u'Determines whether or not an editing master may control the system over the RS422 port.'}
+{u'eParamID_GangEnable': u'Determines whether or not the system participates in group recordings with other Ki Pros on the local network.'}
+{u'eParamID_GangMaster': u'Determines whether or not this system controls others for group recording.'}
+{u'eParamID_VideoSGFormat': u'Determines the video format output from the system\u2019s internal test signal generator.'}
+{u'eParamID_VideoSG': u'Determines the video signal output from the system\u2019s internal test signal generator.'}
+{u'eParamID_AudioSG': u'Determines the audio signal output from the system\u2019s internal test signal generator.'}
+{u'eParamID_IPConfig': u'Determines the type of TCP/IP network configuration used by the system.'}
+{u'eParamID_IPAddress_3': u'The current wired IP address.'}
+{u'eParamID_IPAddress_1': u'A fixed private address used when the default IP address is selected. '}
+{u'eParamID_IPAddress_2': u'The IP address assigned by a DHCP server if DHCP networking is selected.'}
+{u'eParamID_IPAddress_3': u'The current wired IP address.'}
+{u'eParamID_SubnetMask_3': u'The current wired subnet mask.'}
+{u'eParamID_SubnetMask_1': u'A fixed subnet mask used when default addressing is selected.'}
+{u'eParamID_SubnetMask_2': u'The subnet mask assigned by a DHCP server if DHCP networking is selected.'}
+{u'eParamID_SubnetMask_3': u'The current wired subnet mask.'}
+{u'eParamID_DefaultGateway_3': u'Determines the IP address of the gateway used for TCP/IP networking if static addressing is selected.'}
+{u'eParamID_DefaultGateway_1': u'A fixed gateway used when the default IP address is selected. '}
+{u'eParamID_DefaultGateway_2': u'The gateway assigned by a DHCP server if DHCP networking is selected.'}
+{u'eParamID_DefaultGateway_3': u'Determines the IP address of the gateway used for TCP/IP networking if static addressing is selected.'}
+{u'eParamID_SysName': u'Defines a name for the system and gives it a unique identifier. This same name is used both when displaying systems via the web interface and for display on the screen saver (if System name is chosen in Parameter 70.1 Screen Saver).'}
+{u'eParamID_MACAddress': u'The MAC address of the wired ethernet adapter.'}
+{u'eParamID_Authentication': 'description missing'}
+{u'eParamID_DateSet': u'Manually sets the calendar date and time of the internal realtime clock. The value is defined as DD/MM/YYYY (day/month/year).'}
+{u'eParamID_TimeZone': 'description missing'}
+{u'eParamID_DaylightSavings': 'description missing'}
+{u'eParamID_SuppressPSAlarm': 'description missing'}
+{u'eParamID_DisplayIntensity': u'Determines the brightness of the alphanumeric VFD display and front panel backlit buttons.'}
+{u'eParamID_ScreenSaverTimeout': u'Sets the length of time that the UI must be inactive before the screensaver starts'}
+{u'eParamID_FormattedSerialNumber': u'The formatted string version of the serial number.'}
+{u'eParamID_SWVersion': u'The currently running software version level.'}
+{u'eParamID_Flash_Info': u"This system's flash information"}
+{u'eParamID_RegisterRecall': u'Recall a preset from internal flash storage.'}
+{u'eParamID_RegisterSave': u'Save a preset to internal flash storage.'}
+{u'eParamID_RegisterStore': u'Import a preset from an external device.'}
+{u'eParamID_RegisterLoad': u'Export a preset to an external device.'}
+{u'eParamID_RegisterRecallResult': u'Human-readable result of a preset recall operation.'}
+{u'eParamID_RegisterSaveResult': u'Human-readable result of a preset save operation.'}
+{u'eParamID_RegisterStoreResult': u'Human-readable result of a preset import operation.'}
+{u'eParamID_RegisterLoadResult': u'Human-readable result of a preset export operation.'}
+{u'eParamID_FactorySettings': u'Recalls factory default settings.'}
+{u'eParamID_BoardID': u'The board ID for this device type as a hex value.'}
+{u'eParamID_PresetName_1': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_2': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_3': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_4': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_5': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_6': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_7': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_8': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_9': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_10': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_11': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_12': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_13': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_14': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_15': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_16': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_17': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_18': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_19': u'The user-assignable name of this preset.'}
+{u'eParamID_PresetName_20': u'The user-assignable name of this preset.'}
+{u'eParamID_LED_Identify': u'Provides control of the Identify LED on the back of the unit.'}
+- {u'eParamID_DetectInputFormat': u'Video format detected on the selected input.'}
+{u'eParamID_DetectReferenceFormat': u'Reference format detected on the selected input.'}
+{u'eParamID_DecodeType': u'The Apple ProRes or DNxHD decoding method of the current clip.'}
+{u'eParamID_DetectMediaFormat': u'Video format of the current clip.'}
+{u'eParamID_RecordFormat': u'Video format with which a new clip would be recorded.'}
+{u'eParamID_Temperature': 'description missing'}
+{u'eParamID_Progress': u'Progress bar status.'}
+{u'eParamID_PanelLocked': u'Front Panel Locked Status'}
+- {u'eParamID_DisplayMessage': u'Display a message on the UI. Empty value dismisses the message.'}
+{u'eParamID_ClipToDelete': u'Filename of clip to be deleted.'}
+{u'eParamID_StoragePath': u'Path to location on filesystem to record or play clips.'}
+ - {u'eParamID_StorageCommand': u'Internal parameter for controlling use of media.'}
+{u'eParamID_StorageAlarm': u'Storage alarm status.'}
+{u'eParamID_RolloverStoragePath': u'Path to location on filesystem to record or play clips after a rollover.'}
+{u'eParamID_ChangeSlot': u'Command and result to change storage media.  To change, set param to "Next".  Result will be "NotChange/Success" on success, otherwise one of the other result/error codes.'}
+{u'eParamID_SelectedSlot': u'Which media slot is currently selected.'}
+{u'eParamID_CurrentMediaAvailable': u'Percentage of current storage media remaining.'}
+{u'eParamID_VolumeName': u'Current volume name (shown as Reel in UI).'}
+ - {u'eParamID_MediaLoading': u'Media mounting status.'}
+{u'eParamID_RolloverVolumeName': u'Rollover volume name (used to prestuff clip metadata on rollover).'}
+{u'eParamID_MediaSpeed': u'Media speed status.'}
+{u'eParamID_CurrentClip': u'Currently selected clip.'}
+{u'eParamID_CurrentClipTime': u'Clip time for current clip.'}
+{u'eParamID_CurrentPlaylistIndex': u'The index within the active playlist of the currently playing clip.'}
+{u'eParamID_TransportCommand': u'Transport command.'}
+{u'eParamID_TransportState': u'Current transport state.'}
+{u'eParamID_TransportTimecode': u'Current transport timecode.'}
+{u'eParamID_TransportRecordAlarm': u'Record alarm detail.'}
+{u'eParamID_TransportPlayAlarm': u'Play alarm detail.'}
+{u'eParamID_TransportDeleteClip': u'Delete clip command.'}
+{u'eParamID_TransportRequestedSpeed': u'Speed requested for variable speed playback. Only used with the eTCVarPlay transport command.'}
+{u'eParamID_TransportCurrentSpeed': u'Current playback speed.'}
+{u'eParamID_CueToTimecode': u'Cue to timecode when and if it is provided by an RS422 remote controller.'}
+{u'eParamID_SystemTime': u'String representation of 64-bit system time.'}
+{u'eParamID_GoToClip': u'Go to a clip - like NextClip, PrevClip'}
+{u'eParamID_GoToPlaylistIndex': u'Command to navigate the transport to the given playlist index (0 based).'}
+{u'eParamID_SystemState': u'Current system state.'}
+{u'eParamID_ShutdownMessage': u'Current system shutdown message. OBSOLETE, Use eParamID_ShutdownMessageII'}
+{u'eParamID_ShutdownMessageII': 'description missing'}
+{u'eParamID_MainVoltage': u'Current main (XLR) voltage.'}
+{u'eParamID_GangList': u'Comma separated list IP addresses of systems contained within gang/record group.'}
+{u'eParamID_BeerGoggles': 'description missing'}
+{u'eParamID_GangClipName': u'This is an internal parameter used by Gang Record. Do not use. See eParamID_CustomClipName instead.'}
+- {u'eParamID_DisplayTimecode': u'The transport timecode'}
+{u'eParamID_CameraData': u'An internal storage place for camera metadata. Do not use. See eParamID_CurrentClip instead.'}
+- {u'eParamID_InputTimecode': u'The current input timecode'}
+{u'eParamID_GangRecordClipBaseName': u'Gang Record Clip Base Name'}
+{u'eParamID_MediaUpdated': u'Indication that files may have been deleted or added to the selected media and an updated All Clips and/or playlist should be requested.'}
+{u'eParamID_ProductID': u'An identifier used for product specific features and behaviors'}
+{u'eParamID_NetworkServices': u'The value is a JSON array of Network Services discovered by the unit'}
+{u'eParamID_FirmwareStatus': u'Describes the state of the firmware. Do not use any firmware dependent features while not in the eFirmwareStatusRunning state.'}
+{u'eParamID_DieTemp': 'description missing'}
+{u'eParamID_FanTachometerCount': 'description missing'}
+{u'eParamID_VideoDeviceCommand': u'Video Device command.'}
+{u'eParamID_VideoDeviceState': u'Video Device state.'}
+{u'eParamID_DieTemp_Calibration_Value': 'description missing'}
+{u'eParamID_RegisterImportResult': u'Human-readable result of a preset import operation.'}
+{u'eParamID_RegisterExportResult': u'Human-readable result of a preset export operation.'}
+{u'eParamID_TestData': 'description missing'}
+{u'eParamID_HW_Error_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_SW_Error_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Format_Error_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Near_Under_Volt_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Near_Over_Volt_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_PS_1_OFF_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_PS_2_OFF_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Storage_Removed_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Invalid_Selection_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Name_In_Use_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Record_Format_Alarm': u'Alarm (protobuf encoded)'}
+- {u'eParamID_Dropped_Frames_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Near_Over_Temp_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Input_Error_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Safe_Boot_Mode_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Media_Low_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Media_Full_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_AV_Mismatch_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Input_Format_Changed_Alarm': u'Alarm (protobuf encoded)'}
+- {u'eParamID_No_Video_Input_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Frame_Skipped_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Media_Unformatted_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Media_Damaged_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Genlock_Missing_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_2_Channel_Format_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_SDI_VFR_Mismatch_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Genlock_Mismatch_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Non_VFR_Format_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_No_Clip_Name_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Unsupported_Media_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_No_Media_Installed_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Turn_Off_Camera_Data_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_HQ_Not_Supported_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_BitRate_Not_Compatible_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Change_Encode_Mode_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Rollover_Media_Full_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Rollover_Media_Low_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Rollover_Media_Unformatted_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_No_Rollover_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_LUT_Alarm': u'LUT operation status'}
+{u'eParamID_Safeboot_Alarm': u'Alarm to alert the user that the unit is running the Safeboot (backup) version of the software.'}
+{u'eParamID_Rollover_Media_Not_Empty_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Fan_Stopped_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Record_Inhibited_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Calibration_Data_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Calibration_Data_Load_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_AWB_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Unsupported_Media_4KP60HQ_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_Rollover_Unsupported_Media_4KP60HQ_Alarm': u'Alarm (protobuf encoded)'}
+{u'eParamID_LastSelectedConfigParam': u'Last selected configuration menu parameter.'}
+{u'eParamID_LastSelectedMediaParam': u'Last selected media menu parameter.'}

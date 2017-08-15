@@ -1,0 +1,17 @@
+(200, '
+[\n
+{value:"0", text:"ProRes 422", short_text:"", selected:"true"}, 
+{value:"1", text:"ProRes 422 (HQ)", short_text:"HQ", selected:"false"}, 
+{value:"2", text:"ProRes 422 (LT)", short_text:"LT", selected:"false"}, 
+{value:"3", text:"ProRes 422 (Proxy)", short_text:"PX", selected:"false"}, 
+{value:"7", text:"ProRes 444", short_text:"PRes444", selected:"false"}
+\n];\n')
+
+
+[
+(u'0', u'ProRes 422'), 
+(u'1', u'ProRes 422 (HQ)'), 
+(u'2', u'ProRes 422 (LT)'), 
+(u'3', u'ProRes 422 (Proxy)'), 
+(u'7', u'ProRes 444')
+]
